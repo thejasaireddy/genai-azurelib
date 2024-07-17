@@ -21,7 +21,7 @@ Print the results for each input.
 
 import google.generativeai as genai
 
-genai.configure(api_key="AIzaSyCqWIBzyncc2UATMWYildyl32u1BjoRt3Q")
+genai.configure(api_key="Sample_API_KEY")
 
 model = genai.GenerativeModel("gemini-1.5-flash")
 
@@ -55,7 +55,7 @@ for response in response_list:
 import openai
 
 # Set your OpenAI API key
-openai.api_key = "sk-proj-TEt6M7EuMPY2kEzN6Q0tT3BlbkFJw1QAjV9boBM3CGE2mcL7"
+openai.api_key = "Sample_API_KEY"
 
 def get_openai_response(prompt):
     try:
